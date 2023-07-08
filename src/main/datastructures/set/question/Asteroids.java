@@ -19,7 +19,7 @@ Sample Output
 // The 7 and the -7 then collide, both being destroyed.
 
  */
-class Program {
+class Asteroids {
 
     public int[] collidingAsteroids(int[] asteroids) {
         Stack<Integer> stack = new Stack<Integer>();
